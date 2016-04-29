@@ -1,0 +1,147 @@
+{
+	"name":"Valley Lake",
+	"thumbnail":"valleylake.png",
+	"screenshot":"valleylake.png",
+	"templateType":"standard",
+    "tags": {
+    "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "hotel", "sans-serif", "holiday", "travel"],
+    "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "hotel", "sans-serif", "vacaciones", "turismo"],
+    "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "flexível", "aberto", "simples", "hotel", "sans-serif", "Férias", "turismo"]
+    },
+	"colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#003635",
+            "color3":"#003635",
+            "color4":"#4C4D4C",
+            "color5":"#646464",
+            "color6":"#4C4D4C",
+            "color7":"#f0efef"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#575653",
+            "color3":"#D37620",
+            "color4":"#4C4D4C",
+            "color5":"#646464",
+            "color6":"#4C4D4C",
+            "color7":"#f0efef"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#2C2C2E",
+            "color3":"#1A8A88",
+            "color4":"#4C4D4C",
+            "color5":"#646464",
+            "color6":"#4C4D4C",
+            "color7":"#f0efef"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#182C4E",
+            "color3":"#182C4E",
+            "color4":"#4C4D4C",
+            "color5":"#646464",
+            "color6":"#4C4D4C",
+            "color7":"#f0efef"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#362212",
+            "color3":"#362212",
+            "color4":"#4C4D4C",
+            "color5":"#646464",
+            "color6":"#4C4D4C",
+            "color7":"#f0efef"
+        }
+    },
+    "fontSwatch": {
+       "title": "Oswald",
+        "font1": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "40px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "28px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "26px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "18px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch6",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch7",
+            "background-color-hover": "lighten(@color-swatch7,3%)"
+        },
+        "font7": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "15px",
+            "font-weight": "200",
+            "line-height": "25px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "lighten(@color-swatch3,10%)"
+        },
+        "font8": {
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "36px",
+            "font-weight": "200",
+            "line-height": "46px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        }
+    }
+}

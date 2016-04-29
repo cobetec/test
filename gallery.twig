@@ -1,0 +1,65 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+
+<div class="bk-pt-gallery">
+
+<div class="header-bg">
+<header class="bk-header">
+         <div class="wrapper companyheader clearfix">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png'),"showTplWidget":"0"})|raw}}
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+        </div>
+</header>
+<div class="feature">
+  {{widget('image', 'image', { 'src': asset('images/feature-img.jpg'), 'title': false, 'alt': '', 'fileName': 'feature-img.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+</div>
+
+</div>
+
+<nav>
+    <div class="wrapper clearfix">
+        {{widget('extendednavigation', 'navigationheader', {"align":"center"})|raw}}
+    </div>
+</nav>
+
+<div class="main wrapper clearfix">
+        <ul class="row1">
+            <li class="img1">
+               {{widget('image', 'image1', { 'src': asset('/images/1.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '1.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+            <li class="img2">
+                {{widget('image', 'image2', { 'src': asset('/images/2.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '2.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+            <li class="img3">
+                 {{widget('image', 'image3', { 'src': asset('/images/3.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '3.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+        </ul>
+
+        <ul class="row2">
+            <li class="img4">
+               {{widget('image', 'image4', { 'src': asset('/images/4.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '1.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+            <li class="img5">
+                {{widget('image', 'image5', { 'src': asset('/images/5.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '2.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+            <li class="img6">
+                 {{widget('image', 'image6', { 'src': asset('/images/6.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': '3.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+            </li>
+        </ul>
+
+</div> 
+
+
+<footer class="bk-footer">
+    <div class="wrapper clearfix">     
+            {{widget('profile', 'footercolumn1profileaddress', { 'profileType':'address', 'address':'profile'})|raw}}  
+            {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
+            {{widget('profile', 'footercolumn1profilePhone', { 'profileType':'phone', 'phone':'profile'})|raw}} 
+    </div>
+</footer>
+
+</div>
+
+{% endblock %}

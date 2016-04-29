@@ -1,0 +1,38 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+
+<div class="header-bg">
+    <header class="bk-header">
+             <div class="wrapper companyheader clearfix">
+                {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png'),"showTplWidget":"0"})|raw}}
+                {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+            </div>
+    </header>
+    <div class="feature">
+      {{widget('image', 'image', { 'src': asset('images/feature-img.jpg'), 'title': false, 'alt': '', 'fileName': 'feature-img.jpg', 'fileSize': '58kb', 'imageSize': '232 x 232', 'imageWidth': '232px'})|raw}}
+    </div>
+</div>
+
+<nav>
+    <div class="wrapper clearfix">
+        {{widget('extendednavigation', 'navigationheader', {"align":"center"})|raw}}
+    </div>
+</nav>
+
+
+<div class="main wrapper clearfix">
+    {{zone('main')|raw}}
+</div> 
+
+<footer class="bk-footer">
+    <div class="wrapper clearfix">     
+            {{widget('profile', 'footercolumn1profileaddress', { 'profileType':'address', 'address':'profile'})|raw}}  
+            {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
+            {{widget('profile', 'footercolumn1profilePhone', { 'profileType':'phone', 'phone':'profile'})|raw}} 
+    </div>
+</footer>
+
+
+{% endblock %}
